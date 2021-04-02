@@ -17,13 +17,20 @@
 		
 		<btm.version>3.0.0-mk1</btm.version>
 	</properties>
+	
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 
 		<dependency>
-			<groupId>me.ooi</groupId>
-			<artifactId>tinyquery</artifactId>
-			<version>0.1</version>
+		    <groupId>com.github.ooizj</groupId>
+		    <artifactId>tinyquery-beta</artifactId>
+		    <version>v0.1.m1</version>
 		</dependency>
 
 		<dependency>
